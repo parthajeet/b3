@@ -1,0 +1,17 @@
+#nav{
+	padding-top: 12px; 
+}
+#navigation {
+	li {
+		a{
+			@media only screen and (max-width: 1200px) {
+		       font-size: 12px;
+		   }
+	    }
+	}
+}
+.u-logo-section{
+   	@media only screen and (max-width: 992px) {
+       text-align: center;
+    }
+}

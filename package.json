@@ -1,0 +1,44 @@
+{
+  "name": "Velocityconveyor",
+  "version": "0.0.1",
+  "author": "",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "_themepath": "../velocityconveyor",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-cache": "^0.2.8",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-include": "^2.3.1",
+    "gulp-jshint": "^1.9.4",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-newer": "^0.5.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-rev": "^8.0.0",
+    "gulp-rev-collector": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch-sequence": "^1.0.0",
+    "jshint-stylish": "^2.1.0",
+    "rev-del": "^1.0.5",
+    "run-sequence": "^2.2.0"
+  }
+}

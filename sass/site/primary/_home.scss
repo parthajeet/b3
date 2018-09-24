@@ -1,0 +1,169 @@
+.site-logo{
+	img{
+		height: 60px;
+	}
+}
+body{
+	.item-icon{
+		color: $brand-lighter-blue;
+	}
+	a{
+		color: $brand-lighter-blue;
+		&:hover{
+			color: $brand-darker-blue;
+		}
+	}
+	#ci-hero-4, #ci-hero-3{
+		.widget-wrap{
+			background-color: $brand-darker-blue;
+		}
+	}
+	.testimonials{
+		.slides{
+			img {
+				border-radius: 0;
+				max-width: 200px;
+			}
+		}
+	}
+	&.page-template{
+		.page-hero{
+			background-size:cover !important;
+		}
+	}
+	&.page-template-default{
+		.page-hero{
+			background-size:cover !important;
+		}
+	}
+	.slide-title, .hero-title{
+			text-shadow: 4px 1px 20px rgba(0, 0, 0, 0.8);
+	}
+	.item-nav{
+		li{
+			&.active{
+				a{
+					background: $brand-lighter-blue;
+				}
+			}
+			a{
+				&:hover{
+					background: $brand-lighter-blue;
+				}
+			}
+		}
+	}
+
+	.home-slider{
+		.btn, input[type="button"], input[type="submit"], input[type="reset"], button, .button{
+			
+			&:hover{
+				background-color: #FFF!important;
+			}
+		}
+	}
+
+	.btn{
+		&.transparent{
+			&:hover{
+				background-color: $brand-lighter-blue;
+			}
+		}
+	}
+	.btn, input[type="button"], input[type="submit"], input[type="reset"], button, .button{
+		background-color: $brand-lighter-blue;
+		&:hover{
+			background-color: $brand-darker-blue;
+		}
+	}
+	.filters-nav{
+		li{
+			@media only screen and (max-width: 540px) {
+				margin-bottom: 10px;
+			}
+		}
+		a{
+			max-width: inherit!important;
+			&:hover{
+				background: $brand-lighter-blue;
+				border: 2px solid $brand-lighter-blue;
+			}
+			&.selected{
+				background: $brand-lighter-blue;
+				border: 2px solid $brand-lighter-blue;
+			} 
+		}
+	}
+
+	#paging{
+		span{
+			&.current{
+				border-color: $brand-lighter-blue;
+				background: $brand-lighter-blue;
+			}
+		}
+		a{
+			&:hover{
+				border-color: $brand-darker-blue;
+				background: $brand-darker-blue;
+			}
+		}
+	}
+	#sidebar{
+		img{
+			width: 100%;
+		}
+	}
+
+} 
+
+
+.home-slider{
+	ul{
+		li{
+			background-size: cover !important;
+		}
+	}
+}
+ 
+
+div.sperate_video {
+	font-size: 16px;
+}
+
+
+.clearfix_content{ 
+	overflow: hidden;
+	clear: both;  
+	padding-bottom: 20px;
+}
+
+.home-sections{
+	.widget_ci-testimonials{
+		.flex-direction-nav{
+			li{
+				a{
+					&.flex-prev{
+						left: 0% !important;
+						@media only screen and (min-width: 600px) {
+							left: 10% !important;
+						}
+						@media only screen and (min-width: 992px) {
+							left: 30% !important;
+						}
+					}
+					&.flex-next{
+						right: 0% !important;
+						@media only screen and (min-width: 600px) {
+							right: 10% !important;
+						}
+						@media only screen and (min-width: 992px) {
+							right: 30% !important;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
